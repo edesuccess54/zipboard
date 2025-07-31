@@ -1,0 +1,50 @@
+.faqCard {
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  padding: 10px 0 ;
+}
+
+.titleSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.faqTitle {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.answerWrapper {
+  overflow: hidden;
+  transition: max-height 0.3s ease, opacity 0.3s ease;
+  max-height: 0;
+  opacity: 0;
+}
+
+.answerWrapperOpen {
+  max-height: 700px;
+  opacity: 1;
+}
+
+.faqAnswwer {
+  padding-bottom: 1rem;
+  font-size: 1.0625rem;
+}
+
+.button {
+  outline: none;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .faqTitle {
+    font-size: 1.875rem;
+  }
+
+  .faqAnswwer {
+    font-size: 1.375rem;
+  }
+}
