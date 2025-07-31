@@ -9,7 +9,7 @@ function App() {
       <ThemeToggler />
       <h1 className="heading">Frequently asked questions</h1>
       {faqsQuestions.map(({ question, answer, id }) => (
-        <Faq question={question} answer={answer} id={id} />
+        <Faq key={id} question={question} answer={answer} id={id} />
       ))}
     </>
   );
