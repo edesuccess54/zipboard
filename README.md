@@ -14,6 +14,7 @@ This is a simple FAQ Accordion project built with **React**, **TypeScript** and 
 
 ## How to clone and run the app
 
+```bash
 git clone https://github.com/edesuccess54/zipboard
 cd zipboard
 git clone https://github.com/edesuccess54/zipboard
