@@ -17,7 +17,5 @@ This is a simple FAQ Accordion project built with **React**, **TypeScript** and 
 ```bash
 git clone https://github.com/edesuccess54/zipboard
 cd zipboard
-git clone https://github.com/edesuccess54/zipboard
-cd zipboard
 npm install
 npm run dev
